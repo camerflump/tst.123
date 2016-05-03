@@ -1,0 +1,6 @@
+site_name: Gawir Spec
+pages:
+- Spec: spec.md
+theme: Readable
+repo_url: https://github.com/camerflump/tst.123
+repo_name: GitHub
