@@ -1,422 +1,422 @@
 {
     "docs": [
         {
-            "location": "/spec/", 
-            "text": "0.0 Specification for Destructible Social Network Proof of Concept\n\n\n0.01 Proposed Name\n\n\nGawir\n\n\n0.02 Pronunciation:\n\n\nIPA\n \n(\nkey\n)\n : /'\u0261\u00e6w\u026a\u0259/\n\n\n0.03 Proposed Web Address\n\n\nhttp(s?)://www.gawir.com/\n\n\n0.04 Logo Concept\n\n\n\n\n0.05 App Concept\n\n\n\n\n\n\n1.0 Overview of Requirement\n\n\nThe proof of concept will fulfil the following requirements:\n\n\n\n\n\"We want the site to provide a platform for people interacting socially with each other, without their 'history' being accessed.\"\n\n\n\n\nTHIS NEEDS TO BE FILLED OUT\n\n\n\n\n2.0 Functionality\n\n\nNeed more in here.\n\n\n2.01 Search Engine Ranking\n\n\nThis will take a backseat to the actual build of the application. \n\n\n\n\n\n\nThe website should be accessible to search engine spiders and be coded with decent on-page search engine optimisation in mind.\n\n\n\n\n\n\nWe need individual posts to come up in searches (even though they don\u2019t last forever - also a way to stop google caching them?)\n\n\n\n\n\n\n\n\n3.0 List of Pages\n\n\n3.01 Welcome Page\n\n\nLogin/sign-up page for desktop will have links at the bottom for advertisers as well as privacy policy and shite.\n\n\nMobile will be a \u2018first use\u2019 unless they log out, do not know if possible but if we could have the log ins/outs tied to the phone number (sim) that would be amazing for swapping phones and stuff.\n\n\nMobile version will literally have a 'login' and a 'register button' along with the logo.\n\n\n3.02 Sign up process (mobile)\n\n\nFor mobile we need them to enter as much info as possible with their first sign up. Mainly because we don\u2019t have a large screen-space for popups about adding more information later.\n\n\n3.03 Home / Feed\n\n\nThis is the page people will hit the most so it needs to be easy to navigate. Central block of posts from everyone you are following as well as promoted posts (this also helps to fill out a users home page before they connect with anyone).\n\n\n3.04 Settings\n\n\nSpeaks for itself, a page containing the settings that a user can modify.\n\n\n\n\n\n\nUsername / Nickname\n\n\n\n\n\n\nFirst Name\n\n\n\n\n\n\nLast Name\n\n\n\n\n\n\nDate of Birth\n\n\n\n\n\n\nEmail Address(s)\n\n\n\n\n\n\nPhone Number(s)\n\n\n\n\n\n\nPassword\n\n\n\n\n\n\nPrivacy Setings \n(flesh out)\n\n\n\n\n\n\nLangauge (localisation)\n\n\n\n\n\n\nProfanity Filter \ndefault on\n\n\n\n\n\n\nShow adult (18+) groups \ndefault off\n\n\n\n\n\n\nset standard post duration \ndefault 1 hour\n\n\n\n\n1 hour - 24 hours for standard accounts\n\n\n1 hour - 1 week? for premium\n\n\n\n\nPremium Settings\n\n\n\n\n\n\ntoggle character limit \ndefault on\n\n\n\n\n\n\ntoggle featured posts \ndefault on\n\n\n\n\n\n\nApply for verification badge (like twitter's 'verified') \n- need to discuss this\n\n\n\n\n\n\n3.05 Groups\n\n\nThis page will have multiple lists on it. Some thoughts on possible default lists:\n\n\n\n\npopular\n\n\nnew\n\n\nsubscriptions\n\n\npremium? not sure what would go in here maybe like an ama group for us and a suggestions group and stuff\n\n\n\n\nIf as user has it toggled on it will also display adult (18+) groups, these will probably have to be tagged manually. It also means we'll have to moderate the other non-adult tags for adult content somehow. Maybe a report feature with a queue? Ah and if a post is tagged into multiple groups with one (or more) group being an 18+ then it's hidden from all groups unless the 18+ content is toggled on.\n\n\n3.06 Friends\n\n\nPretty standard one here, just a long list of your friends with links to each of their profiles. Will have a little button to unfriend... or maybe a swipe right (?) and then a little unfriend button comes up.\n\n\nAt some point we could have a facebook stlye 'do you know these people' thing based off how many of your friends share friends.\n\n\n3.07 Profile\n\n\n3.07.01 You\n\n\nA users personal profile displayed for them. No friend or unfriend buttons but quick post control, can delete by sliding to the right and clicking\n\n\nADD IMAGE OF THIS IN HERE\n\n\n3.07.02 Others\n\n\n3.08 Notifications\n\n\nPage which has a list of your notifications, one of the only pages on the site that has a complete history from the second you create your account.\n\n\n3.09 Search\n\n\nAllows users to search for groups, other users or public posts.\n\n\n\n\n4.0 Content\n\n\n4.01 Table of Elements\n\n\n4.01.01 Colours\n\n\n\n\n\n\n\n\nname\n\n\nrgb\n\n\na\n\n\n\n\n\n\n\n\n\n\nmain\n\n\n255 , 0 , 0\n\n\n1\n\n\n\n\n\n\nwhite\n\n\n250 , 250 , 250\n\n\n1\n\n\n\n\n\n\nblack\n\n\n10 , 10 , 10\n\n\n1\n\n\n\n\n\n\nlight-grey\n\n\n200 , 200 , 200\n\n\n1\n\n\n\n\n\n\ngrey\n\n\n150 , 150 , 150\n\n\n1\n\n\n\n\n\n\ndark-grey\n\n\n50 , 50 , 50\n\n\n1\n\n\n\n\n\n\ngreen\n\n\n40 , 220 , 90\n\n\n1\n\n\n\n\n\n\ndark-green\n\n\n25 , 170 , 70\n\n\n1\n\n\n\n\n\n\nred\n\n\n255 , 0 , 0\n\n\n1\n\n\n\n\n\n\ndark-red\n\n\n180 , 0 , 0\n\n\n1\n\n\n\n\n\n\nblue\n\n\n80 , 160 , 240\n\n\n1\n\n\n\n\n\n\ndark-blue\n\n\n60 , 110 , 170\n\n\n1\n\n\n\n\n\n\n\n\n4.01.02 Backgrounds\n\n\n\n\n\n\n\n\nclass/id\n\n\nname\n\n\ndescription\n\n\ncolour\n\n\ninteractable\n\n\n\n\n\n\n\n\n\n\n#\n\n\nprime-background\n\n\nsolid background on landing page, main colour of app\n\n\nmain\n\n\nno\n\n\n\n\n\n\n.\n\n\nregister-background\n\n\nsolid background on register page\n\n\nblue\n\n\nno\n\n\n\n\n\n\n#\n\n\nstandard-background\n\n\nsolid background on most pages\n\n\nwhite\n\n\nno\n\n\n\n\n\n\n.\n\n\nsettings-background\n\n\nsolid background on settings page\n\n\nblue\n\n\nno\n\n\n\n\n\n\n\n\n4.01.03 Inputs\n\n\n\n\n\n\n\n\nclass/id\n\n\nname\n\n\ndescription\n\n\ntype\n\n\nstarred-out\n\n\ninteractable\n\n\n\n\n\n\n\n\n\n\n.\n\n\nlogin-username\n\n\nusername input on login page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nlogin-password\n\n\npassword input on login page\n\n\ntext\n\n\nyes\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-fname\n\n\nfirst name input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-lname\n\n\nlast name input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-username\n\n\nusername input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-email\n\n\nemail input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-dob-d\n\n\ndate of birth day input on register page\n\n\ndrop-down\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-dob-m\n\n\ndate of birth month input on register page\n\n\ndrop-down\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-dob-y\n\n\ndate of birth year input on register page\n\n\ndrop-down\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-location\n\n\nlocation input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-password1\n\n\nfirst password input on register page\n\n\ntext\n\n\nyes\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-password2\n\n\nsecond password input on register page\n\n\ntext\n\n\nyes\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-phone\n\n\nphone input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-pin\n\n\npin input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nsearch-text\n\n\ntext input on search page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n\n\n4.02 Localisation\n\n\n\n\n5.0 Style and Layout Concepts (for Mobile)\n\n\n5.01 Pages\n\n\nWelcome Page:\n\n\n\n\nLogin Page:\n\n\n\n\nRegister Page:\n\n\n\n\nFeed:\n\n\n\n\nFriends:\n\n\n\n\nGroups:\n\n\n\n\nNew Post:\n\n\n\n\nProfile:\n\n\n\n\nNotifications:\n\n\nNEED TO DO THIS ONE\n\n\nSearch:\n\n\n\n\n5.02 Elements\n\n\n5.02.01 Sidebar\n\n\n\n\n5.02.02 Navbar\n\n\nThe navbar will show the menu icon if you're at the menu level of the app (anything that can be accessed from the menu). Otherwise it'll show a small 'back arrow'.\n\n\n\n\n5.02.03 Buttons\n\n\n\n\n5.02.04 Inputs\n\n\n\n\n5.02.05 Fonts\n\n\nThin. Thin thin thin thin thin, also sans-serif. There are plenty of free fonts floating around the place and we can use one or more of these.\n\n\nsome suggestions\n\n\nAlgreya Sans (Thin 100):\n\n\nLink\n\n\n\n\nJosefin Sans (Thin 100):\n\n\nLink\n\n\n\n\nRoboto (Thin 100):\n\n\nLink\n\n\n\n\n5.02.06 Icons\n\n\nI like the idea of having quite thick, sharp icons to contrast the fonts. None of this round-corner bollocks. We'll need to have a look for some free icon packs and choose one or more that fit the bill.\n\n\nAt some point I'd love to do a custom icon pack to really fit in with what we're building, but that will take time and can be done later down the line.\n\n\nsome suggestions\n\n\nThemify.me:\n\n\nLink\n\n\nModern UI Icons:\n\n\nLink\n\n\nIconic:\n\n\nLink\n\n\n5.02.07 Avatars\n\n\nWe need to think about how this is going to work, I need to style out a simple interface for cropping images as well.\n\n\n\n\nUsers will have to be able to upload an image from their phone (of any size)\n\n\nIt will be stored on our servers briefly\n\n\nThey crop it to show what they want as their avatar\n\n\nOur servers will squash or enlarge the image (bicubic interpolation? nearest neighbour?) into the different avatar sizes for the site (e.g: 16x16, 32x32, 64x64)\n\n\nThe original image that was uploaded is deleted from our server\n\n\nThe users profile and posts are updated to show the new avatar\n\n\n\n\nn.b: uploading images is going to be much more costly in terms of bandwidth than posting, maybe have it so non-premium accounts can only change their avatar once per week/month? Thoughts?\n\n\n5.02.08 Posts\n\n\n\n\n5.02.09 Lists\n\n\n\n\n6.0 Interaction\n\n\n6.01 Changing Pages\n\n\nPages will all transition horizontally, scrolling is done vertically.\n\n\n\n\n6.02 Sliding the sidebar\n\n\nSidebar can be slid out with a \ndrag to the right\n action or by clicking on it's icon in the navbar.\n\n\nIt'll slide like so:\n\n\n\n\n\n\n\n\n6.03 Refreshing the Page\n\n\nAbove sections with lists of posts there will be a pull-down refresh. \nI ALSO NEED TO STYLE A LITTLE TAB TELLING USERS THAT THERE ARE NEW POSTS\n\n\n6.0X Adding and Removing Friends\n\n\nFriends can be added from the profile page of the person you wish to add. They can be removed from the profile page as well, in addition to being removed directly from your friends list.\n\n\n6.0X.01 Adding a Friend From the Profile Page\n\n\n\n\n\n\n6.0X.02 Removing a Friend From the Profile Page\n\n\n\n\n\n\n6.0X.03 Removing a Friend From the Friends List\n\n\n\n\n\n\n\n\n\n\n7.0 Additional Requirements\n\n\n7.01 Accessibility\n\n\n\n\nThis product must comply with the standards of accessibility contained in \nW3C WAI\n (World Wide Web Consortium Web Accessibility Initiative) level A Guidelines.\n\n\nThe product must comply with \nUS Section 508\n Accessibility Guidelines.\n\n\n\n\n7.02 Valid Code\n\n\nAll code on the product should tend toward \nW3C\n (World Wide Web Consortium) specifications.\n\n\n7.03 Hosting\n\n\nNeed to work out exactly how we're going to set this up.\n\n\nAlso need to find some numbers on facebook/twitter/snapchat/etc. user growth and ammount of posts sent per day so we can try to predict a best case scenario for growth and line that up with costing out servers.\n\n\n7.04 Support\n\n\nAs the website is being launched as a proof of concept with the mobile version first, I think we  can just take bug reports for now.\n\n\n7.05 Localisation\n\n\nI think that all blocks of text on the app should be put into an array that is called from when populating the pages. This will take a little bit more work when working on the first build, but it will make translating a lot easier with us being able to send people the array to translate with reference images. In the long run it should also cut costs and the overall size of the download.\n\n\nAlso on the subject of lacalisation I have friends who can do Swedish, Russian and German for us at pretty much no cost. Maybe we should ask Pak if he's up for simplified Chinese? \n\n\nHave a think about people you know who could sort translations for us. Ideally as a pro-bono thing but I'm cool with tossing small percentages of the company to anyone involved.\n\n\n8.0 Monetisation\n\n\nI had a thought recently that I should put this in here. All of these numbers are ball-park, we will need to try to work out what prices are acceptable and also to work out region specific pricing. Maybe tie the pricing to where the phone number is registered rather than the language or whatever?\n\n\n8.01 Premium Membership\n\n\nBase rate at something like \u00a31.00 per month, access to premium features and also removal of ads... Though it will not remove promoted/featured content. This \nNEEDS\n to be set up to auto-renew, otherwise we'll see a massive drop in premium membership at the end of every month.\n\n\nHad another thought on this, we can say that premium accounts can go 'private' or 'friends-only' or whatever and non-premium accounts can't.\n\n\n8.02 Advertising and Featured Content\n\n\nNeed to discuss rates on things like this. Promoting groups, posts, accounts etc. Also advertising that fits into feeds like a post. I'm not keen on banner ads or things like that. HTML5 video would also be quite nice, though I'm not sure how keen I am on audio... I actually really hate audio adverts and I'm sure that any users of our platform would as well.\n\n\n8.03 Metadata Sale\n\n\nWe can't in good faith sell any data which contains any personal information, however I feel confident that selling aggregated data is a perfectly sound model to work with. This will obviously take space to store ergo costing more but I think that we can more than offset that with sales of the data to firms that could analyse it and sell it on to other companies. Buzzword: \nBig Data\n.\n\n\n8.04 Virtual Items (e.g: stickers)\n\n\nDo people buy these? I need to do some market research to ascertain whether or not it's worth doing this. Or if it's even worth setting up the system with this potential revenue stream in mind.\n\n\n8.05 Changing Certain Settings\n\n\nI'm thinking primarily \nDate of Birth\n. If people enter a date of birth to purposefully access adult (18+) content on the app then they are likely to want to change their birthday to the correct date once they are older (and potentially embarassed). This will disincentivise young people from entering false DoBs and also potentially get us some money down the line when people want to change their birthday.\n\n\n8.06 Paid Text Service\n\n\nIf we want pins and other information to be sent via text to a user's phone then it stands to reason we should charge for it. Hopefully a tiny ammount like ten pence per text. We'll need to coordinate with a company that can send premium texts and will hopefully take a percentage of what we're making on the texts rather than wanting a flat fee (reducing startup costs is paramount). Even if we're only getting a small ammount per text sent that's still much better than having to pay to send the users texts. \n\n\nThe idea is to make it small enough that a user would have no problem in paying it (ergo it may have to vary depending on region) but large enough that it can be a small but consistant revenue earner. \n\n\n8.07 Account Closure / Account Restoration\n\n\nIf a user -for whatever reason- wishes to close their account (which is the same as completely hiding it from everyone who isn't an admin), then a one time fee of something like \u00a35.00 (?) should be in place to 'stop frivolous use of the system' and to make money. Similarly if a user wishes to restore an account which was previously closed then the same one time fee would be applied once again.\n\n\nX.X Unordered\n\n\nUser\n\n\n\n\n\n\n\n\nname\n\n\ntype\n\n\ndescription\n\n\nvisible\n\n\ncan be hidden\n\n\n\n\n\n\n\n\n\n\nid\n\n\ninteger\n\n\nuser id number\n\n\nno\n\n\nno\n\n\n\n\n\n\nusername\n\n\nstring\n\n\nunique username\n\n\nyes\n\n\nno\n\n\n\n\n\n\nfirst name\n\n\nstring\n\n\nuser's first name\n\n\nyes\n\n\nyes?\n\n\n\n\n\n\nlast name\n\n\nstring\n\n\nuser's last name\n\n\nyes\n\n\nyes?\n\n\n\n\n\n\n? nickname ?\n\n\nstring\n\n\nuser's nickname\n\n\nyes\n\n\nyes?\n\n\n\n\n\n\nemail address\n\n\nstring\n\n\nuser's email address\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nphone number\n\n\nstring\n\n\nuser's phone number\n\n\nyes\n\n\nyes\n\n\n\n\n\n\ndate of birth\n\n\ndate?\n\n\nuser's date of birth\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nis verified\n\n\nboolean\n\n\nyes/no verification\n\n\nyes\n\n\nno\n\n\n\n\n\n\nis premium\n\n\nboolean\n\n\nye/no premium account\n\n\nyes\n\n\nno\n\n\n\n\n\n\nfriends\n\n\nsome form of linked list to make it alphabectical?\n\n\nuser's friends\n\n\nyes\n\n\nno\n\n\n\n\n\n\nposts\n\n\nI have no idea...\n\n\nuser's posts\n\n\nyes\n\n\nno - have to be hidden individually\n\n\n\n\n\n\ntotal posts\n\n\ninteger\n\n\nuser's total posts\n\n\nno\n\n\nno\n\n\n\n\n\n\nunique profile views\n\n\ninteger\n\n\ntotal number of times profile has been viewed by unique visitors\n\n\nno\n\n\nno\n\n\n\n\n\n\ncreation date\n\n\ndate\n\n\ndate the account was created\n\n\nyes\n\n\nno\n\n\n\n\n\n\naccount age\n\n\ntime?\n\n\ncurrent date/time subtract creation date/time\n\n\nno\n\n\nno\n\n\n\n\n\n\nposts per day\n\n\ndecimal\n\n\ntotal posts divided by account age\n\n\nno\n\n\nno\n\n\n\n\n\n\n\n\n\n\nThere should be more in here, Will... ideas?\n\n\n\n\nPost\n\n\n\n\n\n\n\n\nname\n\n\ntype\n\n\ndescription\n\n\nvisible\n\n\nvisible to poster", 
+            "location": "/", 
+            "text": "0.0 Specification for Destructible Social Network Proof of Concept\n\n\n0.01 Proposed Name\n\n\nGawir\n\n\n0.02 Pronunciation:\n\n\nIPA\n \n(\nkey\n)\n : /'\u0261\u00e6w\u026a\u0259/\n\n\n0.03 Proposed Web Address\n\n\nhttp(s?)://www.gawir.com/\n\n\n0.04 Logo Concept\n\n\n\n\n0.05 App Concept\n\n\n\n\n\n\n1.0 Overview of Requirement\n\n\nThe proof of concept will fulfil the following requirements:\n\n\n\n\n\"We want the site to provide a platform for people interacting socially with each other, without their 'history' being accessed.\"\n\n\n\n\nTHIS NEEDS TO BE FILLED OUT\n\n\n\n\n2.0 Functionality\n\n\nNeed more in here.\n\n\n2.01 Search Engine Ranking\n\n\nThis will take a backseat to the actual build of the application. \n\n\n\n\n\n\nThe website should be accessible to search engine spiders and be coded with decent on-page search engine optimisation in mind.\n\n\n\n\n\n\nWe need individual posts to come up in searches (even though they don\u2019t last forever - also a way to stop google caching them?)\n\n\n\n\n\n\n\n\n3.0 List of Pages\n\n\n3.01 Welcome Page\n\n\nLogin/sign-up page for desktop will have links at the bottom for advertisers as well as privacy policy and shite.\n\n\nMobile will be a \u2018first use\u2019 unless they log out, do not know if possible but if we could have the log ins/outs tied to the phone number (sim) that would be amazing for swapping phones and stuff.\n\n\nMobile version will literally have a 'login' and a 'register button' along with the logo.\n\n\n3.02 Sign up process (mobile)\n\n\nFor mobile we need them to enter as much info as possible with their first sign up. Mainly because we don\u2019t have a large screen-space for popups about adding more information later.\n\n\n3.03 Home / Feed\n\n\nThis is the page people will hit the most so it needs to be easy to navigate. Central block of posts from everyone you are following as well as promoted posts (this also helps to fill out a users home page before they connect with anyone).\n\n\n3.04 Settings\n\n\nSpeaks for itself, a page containing the settings that a user can modify.\n\n\n\n\n\n\nUsername / Nickname\n\n\n\n\n\n\nFirst Name\n\n\n\n\n\n\nLast Name\n\n\n\n\n\n\nDate of Birth\n\n\n\n\n\n\nEmail Address(s)\n\n\n\n\n\n\nPhone Number(s)\n\n\n\n\n\n\nPassword\n\n\n\n\n\n\nPrivacy Setings \n(flesh out)\n\n\n\n\n\n\nLangauge (localisation)\n\n\n\n\n\n\nProfanity Filter \ndefault on\n\n\n\n\n\n\nShow adult (18+) groups \ndefault off\n\n\n\n\n\n\nset standard post duration \ndefault 1 hour\n\n\n\n\n1 hour - 24 hours for standard accounts\n\n\n1 hour - 1 week? for premium\n\n\n\n\nPremium Settings\n\n\n\n\n\n\ntoggle character limit \ndefault on\n\n\n\n\n\n\ntoggle featured posts \ndefault on\n\n\n\n\n\n\nApply for verification badge (like twitter's 'verified') \n- need to discuss this\n\n\n\n\n\n\n3.05 Groups\n\n\nThis page will have multiple lists on it. Some thoughts on possible default lists:\n\n\n\n\npopular\n\n\nnew\n\n\nsubscriptions\n\n\npremium? not sure what would go in here maybe like an ama group for us and a suggestions group and stuff\n\n\n\n\nIf as user has it toggled on it will also display adult (18+) groups, these will probably have to be tagged manually. It also means we'll have to moderate the other non-adult tags for adult content somehow. Maybe a report feature with a queue? Ah and if a post is tagged into multiple groups with one (or more) group being an 18+ then it's hidden from all groups unless the 18+ content is toggled on.\n\n\n3.06 Friends\n\n\nPretty standard one here, just a long list of your friends with links to each of their profiles. Will have a little button to unfriend... or maybe a swipe right (?) and then a little unfriend button comes up.\n\n\nAt some point we could have a facebook stlye 'do you know these people' thing based off how many of your friends share friends.\n\n\n3.07 Profile\n\n\n3.07.01 You\n\n\nA users personal profile displayed for them. No friend or unfriend buttons but quick post control, can delete by sliding to the right and clicking\n\n\nADD IMAGE OF THIS IN HERE\n\n\n3.07.02 Others\n\n\n3.08 Notifications\n\n\nPage which has a list of your notifications, one of the only pages on the site that has a complete history from the second you create your account.\n\n\n3.09 Search\n\n\nAllows users to search for groups, other users or public posts.\n\n\n\n\n4.0 Content\n\n\n4.01 Table of Elements\n\n\n4.01.01 Colours\n\n\n\n\n\n\n\n\nname\n\n\nrgb\n\n\na\n\n\n\n\n\n\n\n\n\n\nmain\n\n\n255 , 0 , 0\n\n\n1\n\n\n\n\n\n\nwhite\n\n\n250 , 250 , 250\n\n\n1\n\n\n\n\n\n\nblack\n\n\n10 , 10 , 10\n\n\n1\n\n\n\n\n\n\nlight-grey\n\n\n200 , 200 , 200\n\n\n1\n\n\n\n\n\n\ngrey\n\n\n150 , 150 , 150\n\n\n1\n\n\n\n\n\n\ndark-grey\n\n\n50 , 50 , 50\n\n\n1\n\n\n\n\n\n\ngreen\n\n\n40 , 220 , 90\n\n\n1\n\n\n\n\n\n\ndark-green\n\n\n25 , 170 , 70\n\n\n1\n\n\n\n\n\n\nred\n\n\n255 , 0 , 0\n\n\n1\n\n\n\n\n\n\ndark-red\n\n\n180 , 0 , 0\n\n\n1\n\n\n\n\n\n\nblue\n\n\n80 , 160 , 240\n\n\n1\n\n\n\n\n\n\ndark-blue\n\n\n60 , 110 , 170\n\n\n1\n\n\n\n\n\n\n\n\n4.01.02 Backgrounds\n\n\n\n\n\n\n\n\nclass/id\n\n\nname\n\n\ndescription\n\n\ncolour\n\n\ninteractable\n\n\n\n\n\n\n\n\n\n\n#\n\n\nprime-background\n\n\nsolid background on landing page, main colour of app\n\n\nmain\n\n\nno\n\n\n\n\n\n\n.\n\n\nregister-background\n\n\nsolid background on register page\n\n\nblue\n\n\nno\n\n\n\n\n\n\n#\n\n\nstandard-background\n\n\nsolid background on most pages\n\n\nwhite\n\n\nno\n\n\n\n\n\n\n.\n\n\nsettings-background\n\n\nsolid background on settings page\n\n\nblue\n\n\nno\n\n\n\n\n\n\n\n\n4.01.03 Inputs\n\n\n\n\n\n\n\n\nclass/id\n\n\nname\n\n\ndescription\n\n\ntype\n\n\nstarred-out\n\n\ninteractable\n\n\n\n\n\n\n\n\n\n\n.\n\n\nlogin-username\n\n\nusername input on login page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nlogin-password\n\n\npassword input on login page\n\n\ntext\n\n\nyes\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-fname\n\n\nfirst name input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-lname\n\n\nlast name input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-username\n\n\nusername input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-email\n\n\nemail input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-dob-d\n\n\ndate of birth day input on register page\n\n\ndrop-down\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-dob-m\n\n\ndate of birth month input on register page\n\n\ndrop-down\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-dob-y\n\n\ndate of birth year input on register page\n\n\ndrop-down\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-location\n\n\nlocation input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-password1\n\n\nfirst password input on register page\n\n\ntext\n\n\nyes\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-password2\n\n\nsecond password input on register page\n\n\ntext\n\n\nyes\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-phone\n\n\nphone input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nregister-pin\n\n\npin input on register page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n.\n\n\nsearch-text\n\n\ntext input on search page\n\n\ntext\n\n\nno\n\n\nyes\n\n\n\n\n\n\n\n\n4.02 Localisation\n\n\n\n\n5.0 Style and Layout Concepts (for Mobile)\n\n\n5.01 Pages\n\n\nWelcome Page:\n\n\n\n\nLogin Page:\n\n\n\n\nRegister Page:\n\n\n\n\nFeed:\n\n\n\n\nFriends:\n\n\n\n\nGroups:\n\n\n\n\nNew Post:\n\n\n\n\nProfile:\n\n\n\n\nNotifications:\n\n\nNEED TO DO THIS ONE\n\n\nSearch:\n\n\n\n\n5.02 Elements\n\n\n5.02.01 Sidebar\n\n\n\n\n5.02.02 Navbar\n\n\nThe navbar will show the menu icon if you're at the menu level of the app (anything that can be accessed from the menu). Otherwise it'll show a small 'back arrow'.\n\n\n\n\n5.02.03 Buttons\n\n\n\n\n5.02.04 Inputs\n\n\n\n\n5.02.05 Fonts\n\n\nThin. Thin thin thin thin thin, also sans-serif. There are plenty of free fonts floating around the place and we can use one or more of these.\n\n\nsome suggestions\n\n\nAlgreya Sans (Thin 100):\n\n\nLink\n\n\n\n\nJosefin Sans (Thin 100):\n\n\nLink\n\n\n\n\nRoboto (Thin 100):\n\n\nLink\n\n\n\n\n5.02.06 Icons\n\n\nI like the idea of having quite thick, sharp icons to contrast the fonts. None of this round-corner bollocks. We'll need to have a look for some free icon packs and choose one or more that fit the bill.\n\n\nAt some point I'd love to do a custom icon pack to really fit in with what we're building, but that will take time and can be done later down the line.\n\n\nsome suggestions\n\n\nThemify.me:\n\n\nLink\n\n\nModern UI Icons:\n\n\nLink\n\n\nIconic:\n\n\nLink\n\n\n5.02.07 Avatars\n\n\nWe need to think about how this is going to work, I need to style out a simple interface for cropping images as well.\n\n\n\n\nUsers will have to be able to upload an image from their phone (of any size)\n\n\nIt will be stored on our servers briefly\n\n\nThey crop it to show what they want as their avatar\n\n\nOur servers will squash or enlarge the image (bicubic interpolation? nearest neighbour?) into the different avatar sizes for the site (e.g: 16x16, 32x32, 64x64)\n\n\nThe original image that was uploaded is deleted from our server\n\n\nThe users profile and posts are updated to show the new avatar\n\n\n\n\nn.b: uploading images is going to be much more costly in terms of bandwidth than posting, maybe have it so non-premium accounts can only change their avatar once per week/month? Thoughts?\n\n\n5.02.08 Posts\n\n\n\n\n5.02.09 Lists\n\n\n\n\n6.0 Interaction\n\n\n6.01 Changing Pages\n\n\nPages will all transition horizontally, scrolling is done vertically.\n\n\n\n\n6.02 Sliding the sidebar\n\n\nSidebar can be slid out with a \ndrag to the right\n action or by clicking on it's icon in the navbar.\n\n\nIt'll slide like so:\n\n\n\n\n\n\n\n\n6.03 Refreshing the Page\n\n\nAbove sections with lists of posts there will be a pull-down refresh. \nI ALSO NEED TO STYLE A LITTLE TAB TELLING USERS THAT THERE ARE NEW POSTS\n\n\n6.0X Adding and Removing Friends\n\n\nFriends can be added from the profile page of the person you wish to add. They can be removed from the profile page as well, in addition to being removed directly from your friends list.\n\n\n6.0X.01 Adding a Friend From the Profile Page\n\n\n\n\n\n\n6.0X.02 Removing a Friend From the Profile Page\n\n\n\n\n\n\n6.0X.03 Removing a Friend From the Friends List\n\n\n\n\n\n\n\n\n\n\n7.0 Additional Requirements\n\n\n7.01 Accessibility\n\n\n\n\nThis product must comply with the standards of accessibility contained in \nW3C WAI\n (World Wide Web Consortium Web Accessibility Initiative) level A Guidelines.\n\n\nThe product must comply with \nUS Section 508\n Accessibility Guidelines.\n\n\n\n\n7.02 Valid Code\n\n\nAll code on the product should tend toward \nW3C\n (World Wide Web Consortium) specifications.\n\n\n7.03 Hosting\n\n\nNeed to work out exactly how we're going to set this up.\n\n\nAlso need to find some numbers on facebook/twitter/snapchat/etc. user growth and ammount of posts sent per day so we can try to predict a best case scenario for growth and line that up with costing out servers.\n\n\n7.04 Support\n\n\nAs the website is being launched as a proof of concept with the mobile version first, I think we  can just take bug reports for now.\n\n\n7.05 Localisation\n\n\nI think that all blocks of text on the app should be put into an array that is called from when populating the pages. This will take a little bit more work when working on the first build, but it will make translating a lot easier with us being able to send people the array to translate with reference images. In the long run it should also cut costs and the overall size of the download.\n\n\nAlso on the subject of lacalisation I have friends who can do Swedish, Russian and German for us at pretty much no cost. Maybe we should ask Pak if he's up for simplified Chinese? \n\n\nHave a think about people you know who could sort translations for us. Ideally as a pro-bono thing but I'm cool with tossing small percentages of the company to anyone involved.\n\n\n8.0 Monetisation\n\n\nI had a thought recently that I should put this in here. All of these numbers are ball-park, we will need to try to work out what prices are acceptable and also to work out region specific pricing. Maybe tie the pricing to where the phone number is registered rather than the language or whatever?\n\n\n8.01 Premium Membership\n\n\nBase rate at something like \u00a31.00 per month, access to premium features and also removal of ads... Though it will not remove promoted/featured content. This \nNEEDS\n to be set up to auto-renew, otherwise we'll see a massive drop in premium membership at the end of every month.\n\n\nHad another thought on this, we can say that premium accounts can go 'private' or 'friends-only' or whatever and non-premium accounts can't.\n\n\n8.02 Advertising and Featured Content\n\n\nNeed to discuss rates on things like this. Promoting groups, posts, accounts etc. Also advertising that fits into feeds like a post. I'm not keen on banner ads or things like that. HTML5 video would also be quite nice, though I'm not sure how keen I am on audio... I actually really hate audio adverts and I'm sure that any users of our platform would as well.\n\n\n8.03 Metadata Sale\n\n\nWe can't in good faith sell any data which contains any personal information, however I feel confident that selling aggregated data is a perfectly sound model to work with. This will obviously take space to store ergo costing more but I think that we can more than offset that with sales of the data to firms that could analyse it and sell it on to other companies. Buzzword: \nBig Data\n.\n\n\n8.04 Virtual Items (e.g: stickers)\n\n\nDo people buy these? I need to do some market research to ascertain whether or not it's worth doing this. Or if it's even worth setting up the system with this potential revenue stream in mind.\n\n\n8.05 Changing Certain Settings\n\n\nI'm thinking primarily \nDate of Birth\n. If people enter a date of birth to purposefully access adult (18+) content on the app then they are likely to want to change their birthday to the correct date once they are older (and potentially embarassed). This will disincentivise young people from entering false DoBs and also potentially get us some money down the line when people want to change their birthday.\n\n\n8.06 Paid Text Service\n\n\nIf we want pins and other information to be sent via text to a user's phone then it stands to reason we should charge for it. Hopefully a tiny ammount like ten pence per text. We'll need to coordinate with a company that can send premium texts and will hopefully take a percentage of what we're making on the texts rather than wanting a flat fee (reducing startup costs is paramount). Even if we're only getting a small ammount per text sent that's still much better than having to pay to send the users texts. \n\n\nThe idea is to make it small enough that a user would have no problem in paying it (ergo it may have to vary depending on region) but large enough that it can be a small but consistant revenue earner. \n\n\n8.07 Account Closure / Account Restoration\n\n\nIf a user -for whatever reason- wishes to close their account (which is the same as completely hiding it from everyone who isn't an admin), then a one time fee of something like \u00a35.00 (?) should be in place to 'stop frivolous use of the system' and to make money. Similarly if a user wishes to restore an account which was previously closed then the same one time fee would be applied once again.\n\n\nX.X Unordered\n\n\nUser\n\n\n\n\n\n\n\n\nname\n\n\ntype\n\n\ndescription\n\n\nvisible\n\n\ncan be hidden\n\n\n\n\n\n\n\n\n\n\nid\n\n\ninteger\n\n\nuser id number\n\n\nno\n\n\nno\n\n\n\n\n\n\nusername\n\n\nstring\n\n\nunique username\n\n\nyes\n\n\nno\n\n\n\n\n\n\nfirst name\n\n\nstring\n\n\nuser's first name\n\n\nyes\n\n\nyes?\n\n\n\n\n\n\nlast name\n\n\nstring\n\n\nuser's last name\n\n\nyes\n\n\nyes?\n\n\n\n\n\n\n? nickname ?\n\n\nstring\n\n\nuser's nickname\n\n\nyes\n\n\nyes?\n\n\n\n\n\n\nemail address\n\n\nstring\n\n\nuser's email address\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nphone number\n\n\nstring\n\n\nuser's phone number\n\n\nyes\n\n\nyes\n\n\n\n\n\n\ndate of birth\n\n\ndate?\n\n\nuser's date of birth\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nis verified\n\n\nboolean\n\n\nyes/no verification\n\n\nyes\n\n\nno\n\n\n\n\n\n\nis premium\n\n\nboolean\n\n\nye/no premium account\n\n\nyes\n\n\nno\n\n\n\n\n\n\nfriends\n\n\nsome form of linked list to make it alphabectical?\n\n\nuser's friends\n\n\nyes\n\n\nno\n\n\n\n\n\n\nposts\n\n\nI have no idea...\n\n\nuser's posts\n\n\nyes\n\n\nno - have to be hidden individually\n\n\n\n\n\n\ntotal posts\n\n\ninteger\n\n\nuser's total posts\n\n\nno\n\n\nno\n\n\n\n\n\n\nunique profile views\n\n\ninteger\n\n\ntotal number of times profile has been viewed by unique visitors\n\n\nno\n\n\nno\n\n\n\n\n\n\ncreation date\n\n\ndate\n\n\ndate the account was created\n\n\nyes\n\n\nno\n\n\n\n\n\n\naccount age\n\n\ntime?\n\n\ncurrent date/time subtract creation date/time\n\n\nno\n\n\nno\n\n\n\n\n\n\nposts per day\n\n\ndecimal\n\n\ntotal posts divided by account age\n\n\nno\n\n\nno\n\n\n\n\n\n\n\n\n\n\nThere should be more in here\n\n\n\n\nPost\n\n\n\n\n\n\n\n\nname\n\n\ntype\n\n\ndescription\n\n\nvisible\n\n\nvisible to poster", 
             "title": "Spec"
         }, 
         {
-            "location": "/spec/#00-specification-for-destructible-social-network-proof-of-concept", 
+            "location": "/#00-specification-for-destructible-social-network-proof-of-concept", 
             "text": "", 
             "title": "0.0 Specification for Destructible Social Network Proof of Concept"
         }, 
         {
-            "location": "/spec/#001-proposed-name", 
+            "location": "/#001-proposed-name", 
             "text": "Gawir", 
             "title": "0.01 Proposed Name"
         }, 
         {
-            "location": "/spec/#002-pronunciation", 
+            "location": "/#002-pronunciation", 
             "text": "IPA   ( key )  : /'\u0261\u00e6w\u026a\u0259/", 
             "title": "0.02 Pronunciation:"
         }, 
         {
-            "location": "/spec/#003-proposed-web-address", 
+            "location": "/#003-proposed-web-address", 
             "text": "http(s?)://www.gawir.com/", 
             "title": "0.03 Proposed Web Address"
         }, 
         {
-            "location": "/spec/#004-logo-concept", 
+            "location": "/#004-logo-concept", 
             "text": "", 
             "title": "0.04 Logo Concept"
         }, 
         {
-            "location": "/spec/#005-app-concept", 
+            "location": "/#005-app-concept", 
             "text": "", 
             "title": "0.05 App Concept"
         }, 
         {
-            "location": "/spec/#10-overview-of-requirement", 
+            "location": "/#10-overview-of-requirement", 
             "text": "The proof of concept will fulfil the following requirements:   \"We want the site to provide a platform for people interacting socially with each other, without their 'history' being accessed.\"", 
             "title": "1.0 Overview of Requirement"
         }, 
         {
-            "location": "/spec/#this-needs-to-be-filled-out", 
+            "location": "/#this-needs-to-be-filled-out", 
             "text": "", 
             "title": "THIS NEEDS TO BE FILLED OUT"
         }, 
         {
-            "location": "/spec/#20-functionality", 
+            "location": "/#20-functionality", 
             "text": "Need more in here.", 
             "title": "2.0 Functionality"
         }, 
         {
-            "location": "/spec/#201-search-engine-ranking", 
+            "location": "/#201-search-engine-ranking", 
             "text": "This will take a backseat to the actual build of the application.     The website should be accessible to search engine spiders and be coded with decent on-page search engine optimisation in mind.    We need individual posts to come up in searches (even though they don\u2019t last forever - also a way to stop google caching them?)", 
             "title": "2.01 Search Engine Ranking"
         }, 
         {
-            "location": "/spec/#30-list-of-pages", 
+            "location": "/#30-list-of-pages", 
             "text": "", 
             "title": "3.0 List of Pages"
         }, 
         {
-            "location": "/spec/#301-welcome-page", 
+            "location": "/#301-welcome-page", 
             "text": "Login/sign-up page for desktop will have links at the bottom for advertisers as well as privacy policy and shite.  Mobile will be a \u2018first use\u2019 unless they log out, do not know if possible but if we could have the log ins/outs tied to the phone number (sim) that would be amazing for swapping phones and stuff.  Mobile version will literally have a 'login' and a 'register button' along with the logo.", 
             "title": "3.01 Welcome Page"
         }, 
         {
-            "location": "/spec/#302-sign-up-process-mobile", 
+            "location": "/#302-sign-up-process-mobile", 
             "text": "For mobile we need them to enter as much info as possible with their first sign up. Mainly because we don\u2019t have a large screen-space for popups about adding more information later.", 
             "title": "3.02 Sign up process (mobile)"
         }, 
         {
-            "location": "/spec/#303-home-feed", 
+            "location": "/#303-home-feed", 
             "text": "This is the page people will hit the most so it needs to be easy to navigate. Central block of posts from everyone you are following as well as promoted posts (this also helps to fill out a users home page before they connect with anyone).", 
             "title": "3.03 Home / Feed"
         }, 
         {
-            "location": "/spec/#304-settings", 
+            "location": "/#304-settings", 
             "text": "Speaks for itself, a page containing the settings that a user can modify.    Username / Nickname    First Name    Last Name    Date of Birth    Email Address(s)    Phone Number(s)    Password    Privacy Setings  (flesh out)    Langauge (localisation)    Profanity Filter  default on    Show adult (18+) groups  default off    set standard post duration  default 1 hour   1 hour - 24 hours for standard accounts  1 hour - 1 week? for premium", 
             "title": "3.04 Settings"
         }, 
         {
-            "location": "/spec/#premium-settings", 
+            "location": "/#premium-settings", 
             "text": "toggle character limit  default on    toggle featured posts  default on    Apply for verification badge (like twitter's 'verified')  - need to discuss this", 
             "title": "Premium Settings"
         }, 
         {
-            "location": "/spec/#305-groups", 
+            "location": "/#305-groups", 
             "text": "This page will have multiple lists on it. Some thoughts on possible default lists:   popular  new  subscriptions  premium? not sure what would go in here maybe like an ama group for us and a suggestions group and stuff   If as user has it toggled on it will also display adult (18+) groups, these will probably have to be tagged manually. It also means we'll have to moderate the other non-adult tags for adult content somehow. Maybe a report feature with a queue? Ah and if a post is tagged into multiple groups with one (or more) group being an 18+ then it's hidden from all groups unless the 18+ content is toggled on.", 
             "title": "3.05 Groups"
         }, 
         {
-            "location": "/spec/#306-friends", 
+            "location": "/#306-friends", 
             "text": "Pretty standard one here, just a long list of your friends with links to each of their profiles. Will have a little button to unfriend... or maybe a swipe right (?) and then a little unfriend button comes up.  At some point we could have a facebook stlye 'do you know these people' thing based off how many of your friends share friends.", 
             "title": "3.06 Friends"
         }, 
         {
-            "location": "/spec/#307-profile", 
+            "location": "/#307-profile", 
             "text": "", 
             "title": "3.07 Profile"
         }, 
         {
-            "location": "/spec/#30701-you", 
+            "location": "/#30701-you", 
             "text": "A users personal profile displayed for them. No friend or unfriend buttons but quick post control, can delete by sliding to the right and clicking", 
             "title": "3.07.01 You"
         }, 
         {
-            "location": "/spec/#add-image-of-this-in-here", 
+            "location": "/#add-image-of-this-in-here", 
             "text": "", 
             "title": "ADD IMAGE OF THIS IN HERE"
         }, 
         {
-            "location": "/spec/#30702-others", 
+            "location": "/#30702-others", 
             "text": "", 
             "title": "3.07.02 Others"
         }, 
         {
-            "location": "/spec/#308-notifications", 
+            "location": "/#308-notifications", 
             "text": "Page which has a list of your notifications, one of the only pages on the site that has a complete history from the second you create your account.", 
             "title": "3.08 Notifications"
         }, 
         {
-            "location": "/spec/#309-search", 
+            "location": "/#309-search", 
             "text": "Allows users to search for groups, other users or public posts.", 
             "title": "3.09 Search"
         }, 
         {
-            "location": "/spec/#40-content", 
+            "location": "/#40-content", 
             "text": "", 
             "title": "4.0 Content"
         }, 
         {
-            "location": "/spec/#401-table-of-elements", 
+            "location": "/#401-table-of-elements", 
             "text": "", 
             "title": "4.01 Table of Elements"
         }, 
         {
-            "location": "/spec/#40101-colours", 
+            "location": "/#40101-colours", 
             "text": "name  rgb  a      main  255 , 0 , 0  1    white  250 , 250 , 250  1    black  10 , 10 , 10  1    light-grey  200 , 200 , 200  1    grey  150 , 150 , 150  1    dark-grey  50 , 50 , 50  1    green  40 , 220 , 90  1    dark-green  25 , 170 , 70  1    red  255 , 0 , 0  1    dark-red  180 , 0 , 0  1    blue  80 , 160 , 240  1    dark-blue  60 , 110 , 170  1", 
             "title": "4.01.01 Colours"
         }, 
         {
-            "location": "/spec/#40102-backgrounds", 
+            "location": "/#40102-backgrounds", 
             "text": "class/id  name  description  colour  interactable      #  prime-background  solid background on landing page, main colour of app  main  no    .  register-background  solid background on register page  blue  no    #  standard-background  solid background on most pages  white  no    .  settings-background  solid background on settings page  blue  no", 
             "title": "4.01.02 Backgrounds"
         }, 
         {
-            "location": "/spec/#40103-inputs", 
+            "location": "/#40103-inputs", 
             "text": "class/id  name  description  type  starred-out  interactable      .  login-username  username input on login page  text  no  yes    .  login-password  password input on login page  text  yes  yes    .  register-fname  first name input on register page  text  no  yes    .  register-lname  last name input on register page  text  no  yes    .  register-username  username input on register page  text  no  yes    .  register-email  email input on register page  text  no  yes    .  register-dob-d  date of birth day input on register page  drop-down  no  yes    .  register-dob-m  date of birth month input on register page  drop-down  no  yes    .  register-dob-y  date of birth year input on register page  drop-down  no  yes    .  register-location  location input on register page  text  no  yes    .  register-password1  first password input on register page  text  yes  yes    .  register-password2  second password input on register page  text  yes  yes    .  register-phone  phone input on register page  text  no  yes    .  register-pin  pin input on register page  text  no  yes    .  search-text  text input on search page  text  no  yes", 
             "title": "4.01.03 Inputs"
         }, 
         {
-            "location": "/spec/#402-localisation", 
+            "location": "/#402-localisation", 
             "text": "", 
             "title": "4.02 Localisation"
         }, 
         {
-            "location": "/spec/#50-style-and-layout-concepts-for-mobile", 
+            "location": "/#50-style-and-layout-concepts-for-mobile", 
             "text": "", 
             "title": "5.0 Style and Layout Concepts (for Mobile)"
         }, 
         {
-            "location": "/spec/#501-pages", 
+            "location": "/#501-pages", 
             "text": "", 
             "title": "5.01 Pages"
         }, 
         {
-            "location": "/spec/#welcome-page", 
+            "location": "/#welcome-page", 
             "text": "", 
             "title": "Welcome Page:"
         }, 
         {
-            "location": "/spec/#login-page", 
+            "location": "/#login-page", 
             "text": "", 
             "title": "Login Page:"
         }, 
         {
-            "location": "/spec/#register-page", 
+            "location": "/#register-page", 
             "text": "", 
             "title": "Register Page:"
         }, 
         {
-            "location": "/spec/#feed", 
+            "location": "/#feed", 
             "text": "", 
             "title": "Feed:"
         }, 
         {
-            "location": "/spec/#friends", 
+            "location": "/#friends", 
             "text": "", 
             "title": "Friends:"
         }, 
         {
-            "location": "/spec/#groups", 
+            "location": "/#groups", 
             "text": "", 
             "title": "Groups:"
         }, 
         {
-            "location": "/spec/#new-post", 
+            "location": "/#new-post", 
             "text": "", 
             "title": "New Post:"
         }, 
         {
-            "location": "/spec/#profile", 
+            "location": "/#profile", 
             "text": "", 
             "title": "Profile:"
         }, 
         {
-            "location": "/spec/#notifications", 
+            "location": "/#notifications", 
             "text": "NEED TO DO THIS ONE", 
             "title": "Notifications:"
         }, 
         {
-            "location": "/spec/#search", 
+            "location": "/#search", 
             "text": "", 
             "title": "Search:"
         }, 
         {
-            "location": "/spec/#502-elements", 
+            "location": "/#502-elements", 
             "text": "", 
             "title": "5.02 Elements"
         }, 
         {
-            "location": "/spec/#50201-sidebar", 
+            "location": "/#50201-sidebar", 
             "text": "", 
             "title": "5.02.01 Sidebar"
         }, 
         {
-            "location": "/spec/#50202-navbar", 
+            "location": "/#50202-navbar", 
             "text": "The navbar will show the menu icon if you're at the menu level of the app (anything that can be accessed from the menu). Otherwise it'll show a small 'back arrow'.", 
             "title": "5.02.02 Navbar"
         }, 
         {
-            "location": "/spec/#50203-buttons", 
+            "location": "/#50203-buttons", 
             "text": "", 
             "title": "5.02.03 Buttons"
         }, 
         {
-            "location": "/spec/#50204-inputs", 
+            "location": "/#50204-inputs", 
             "text": "", 
             "title": "5.02.04 Inputs"
         }, 
         {
-            "location": "/spec/#50205-fonts", 
+            "location": "/#50205-fonts", 
             "text": "Thin. Thin thin thin thin thin, also sans-serif. There are plenty of free fonts floating around the place and we can use one or more of these.  some suggestions", 
             "title": "5.02.05 Fonts"
         }, 
         {
-            "location": "/spec/#algreya-sans-thin-100", 
+            "location": "/#algreya-sans-thin-100", 
             "text": "Link", 
             "title": "Algreya Sans (Thin 100):"
         }, 
         {
-            "location": "/spec/#josefin-sans-thin-100", 
+            "location": "/#josefin-sans-thin-100", 
             "text": "Link", 
             "title": "Josefin Sans (Thin 100):"
         }, 
         {
-            "location": "/spec/#roboto-thin-100", 
+            "location": "/#roboto-thin-100", 
             "text": "Link", 
             "title": "Roboto (Thin 100):"
         }, 
         {
-            "location": "/spec/#50206-icons", 
+            "location": "/#50206-icons", 
             "text": "I like the idea of having quite thick, sharp icons to contrast the fonts. None of this round-corner bollocks. We'll need to have a look for some free icon packs and choose one or more that fit the bill.  At some point I'd love to do a custom icon pack to really fit in with what we're building, but that will take time and can be done later down the line.  some suggestions", 
             "title": "5.02.06 Icons"
         }, 
         {
-            "location": "/spec/#themifyme", 
+            "location": "/#themifyme", 
             "text": "Link", 
             "title": "Themify.me:"
         }, 
         {
-            "location": "/spec/#modern-ui-icons", 
+            "location": "/#modern-ui-icons", 
             "text": "Link", 
             "title": "Modern UI Icons:"
         }, 
         {
-            "location": "/spec/#iconic", 
+            "location": "/#iconic", 
             "text": "Link", 
             "title": "Iconic:"
         }, 
         {
-            "location": "/spec/#50207-avatars", 
+            "location": "/#50207-avatars", 
             "text": "We need to think about how this is going to work, I need to style out a simple interface for cropping images as well.   Users will have to be able to upload an image from their phone (of any size)  It will be stored on our servers briefly  They crop it to show what they want as their avatar  Our servers will squash or enlarge the image (bicubic interpolation? nearest neighbour?) into the different avatar sizes for the site (e.g: 16x16, 32x32, 64x64)  The original image that was uploaded is deleted from our server  The users profile and posts are updated to show the new avatar   n.b: uploading images is going to be much more costly in terms of bandwidth than posting, maybe have it so non-premium accounts can only change their avatar once per week/month? Thoughts?", 
             "title": "5.02.07 Avatars"
         }, 
         {
-            "location": "/spec/#50208-posts", 
+            "location": "/#50208-posts", 
             "text": "", 
             "title": "5.02.08 Posts"
         }, 
         {
-            "location": "/spec/#50209-lists", 
+            "location": "/#50209-lists", 
             "text": "", 
             "title": "5.02.09 Lists"
         }, 
         {
-            "location": "/spec/#60-interaction", 
+            "location": "/#60-interaction", 
             "text": "", 
             "title": "6.0 Interaction"
         }, 
         {
-            "location": "/spec/#601-changing-pages", 
+            "location": "/#601-changing-pages", 
             "text": "Pages will all transition horizontally, scrolling is done vertically.", 
             "title": "6.01 Changing Pages"
         }, 
         {
-            "location": "/spec/#602-sliding-the-sidebar", 
+            "location": "/#602-sliding-the-sidebar", 
             "text": "Sidebar can be slid out with a  drag to the right  action or by clicking on it's icon in the navbar.  It'll slide like so:", 
             "title": "6.02 Sliding the sidebar"
         }, 
         {
-            "location": "/spec/#603-refreshing-the-page", 
+            "location": "/#603-refreshing-the-page", 
             "text": "Above sections with lists of posts there will be a pull-down refresh.  I ALSO NEED TO STYLE A LITTLE TAB TELLING USERS THAT THERE ARE NEW POSTS", 
             "title": "6.03 Refreshing the Page"
         }, 
         {
-            "location": "/spec/#60x-adding-and-removing-friends", 
+            "location": "/#60x-adding-and-removing-friends", 
             "text": "Friends can be added from the profile page of the person you wish to add. They can be removed from the profile page as well, in addition to being removed directly from your friends list.", 
             "title": "6.0X Adding and Removing Friends"
         }, 
         {
-            "location": "/spec/#60x01-adding-a-friend-from-the-profile-page", 
+            "location": "/#60x01-adding-a-friend-from-the-profile-page", 
             "text": "", 
             "title": "6.0X.01 Adding a Friend From the Profile Page"
         }, 
         {
-            "location": "/spec/#60x02-removing-a-friend-from-the-profile-page", 
+            "location": "/#60x02-removing-a-friend-from-the-profile-page", 
             "text": "", 
             "title": "6.0X.02 Removing a Friend From the Profile Page"
         }, 
         {
-            "location": "/spec/#60x03-removing-a-friend-from-the-friends-list", 
+            "location": "/#60x03-removing-a-friend-from-the-friends-list", 
             "text": "", 
             "title": "6.0X.03 Removing a Friend From the Friends List"
         }, 
         {
-            "location": "/spec/#70-additional-requirements", 
+            "location": "/#70-additional-requirements", 
             "text": "", 
             "title": "7.0 Additional Requirements"
         }, 
         {
-            "location": "/spec/#701-accessibility", 
+            "location": "/#701-accessibility", 
             "text": "This product must comply with the standards of accessibility contained in  W3C WAI  (World Wide Web Consortium Web Accessibility Initiative) level A Guidelines.  The product must comply with  US Section 508  Accessibility Guidelines.", 
             "title": "7.01 Accessibility"
         }, 
         {
-            "location": "/spec/#702-valid-code", 
+            "location": "/#702-valid-code", 
             "text": "All code on the product should tend toward  W3C  (World Wide Web Consortium) specifications.", 
             "title": "7.02 Valid Code"
         }, 
         {
-            "location": "/spec/#703-hosting", 
+            "location": "/#703-hosting", 
             "text": "Need to work out exactly how we're going to set this up.  Also need to find some numbers on facebook/twitter/snapchat/etc. user growth and ammount of posts sent per day so we can try to predict a best case scenario for growth and line that up with costing out servers.", 
             "title": "7.03 Hosting"
         }, 
         {
-            "location": "/spec/#704-support", 
+            "location": "/#704-support", 
             "text": "As the website is being launched as a proof of concept with the mobile version first, I think we  can just take bug reports for now.", 
             "title": "7.04 Support"
         }, 
         {
-            "location": "/spec/#705-localisation", 
+            "location": "/#705-localisation", 
             "text": "I think that all blocks of text on the app should be put into an array that is called from when populating the pages. This will take a little bit more work when working on the first build, but it will make translating a lot easier with us being able to send people the array to translate with reference images. In the long run it should also cut costs and the overall size of the download.  Also on the subject of lacalisation I have friends who can do Swedish, Russian and German for us at pretty much no cost. Maybe we should ask Pak if he's up for simplified Chinese?   Have a think about people you know who could sort translations for us. Ideally as a pro-bono thing but I'm cool with tossing small percentages of the company to anyone involved.", 
             "title": "7.05 Localisation"
         }, 
         {
-            "location": "/spec/#80-monetisation", 
+            "location": "/#80-monetisation", 
             "text": "I had a thought recently that I should put this in here. All of these numbers are ball-park, we will need to try to work out what prices are acceptable and also to work out region specific pricing. Maybe tie the pricing to where the phone number is registered rather than the language or whatever?", 
             "title": "8.0 Monetisation"
         }, 
         {
-            "location": "/spec/#801-premium-membership", 
+            "location": "/#801-premium-membership", 
             "text": "Base rate at something like \u00a31.00 per month, access to premium features and also removal of ads... Though it will not remove promoted/featured content. This  NEEDS  to be set up to auto-renew, otherwise we'll see a massive drop in premium membership at the end of every month.  Had another thought on this, we can say that premium accounts can go 'private' or 'friends-only' or whatever and non-premium accounts can't.", 
             "title": "8.01 Premium Membership"
         }, 
         {
-            "location": "/spec/#802-advertising-and-featured-content", 
+            "location": "/#802-advertising-and-featured-content", 
             "text": "Need to discuss rates on things like this. Promoting groups, posts, accounts etc. Also advertising that fits into feeds like a post. I'm not keen on banner ads or things like that. HTML5 video would also be quite nice, though I'm not sure how keen I am on audio... I actually really hate audio adverts and I'm sure that any users of our platform would as well.", 
             "title": "8.02 Advertising and Featured Content"
         }, 
         {
-            "location": "/spec/#803-metadata-sale", 
+            "location": "/#803-metadata-sale", 
             "text": "We can't in good faith sell any data which contains any personal information, however I feel confident that selling aggregated data is a perfectly sound model to work with. This will obviously take space to store ergo costing more but I think that we can more than offset that with sales of the data to firms that could analyse it and sell it on to other companies. Buzzword:  Big Data .", 
             "title": "8.03 Metadata Sale"
         }, 
         {
-            "location": "/spec/#804-virtual-items-eg-stickers", 
+            "location": "/#804-virtual-items-eg-stickers", 
             "text": "Do people buy these? I need to do some market research to ascertain whether or not it's worth doing this. Or if it's even worth setting up the system with this potential revenue stream in mind.", 
             "title": "8.04 Virtual Items (e.g: stickers)"
         }, 
         {
-            "location": "/spec/#805-changing-certain-settings", 
+            "location": "/#805-changing-certain-settings", 
             "text": "I'm thinking primarily  Date of Birth . If people enter a date of birth to purposefully access adult (18+) content on the app then they are likely to want to change their birthday to the correct date once they are older (and potentially embarassed). This will disincentivise young people from entering false DoBs and also potentially get us some money down the line when people want to change their birthday.", 
             "title": "8.05 Changing Certain Settings"
         }, 
         {
-            "location": "/spec/#806-paid-text-service", 
+            "location": "/#806-paid-text-service", 
             "text": "If we want pins and other information to be sent via text to a user's phone then it stands to reason we should charge for it. Hopefully a tiny ammount like ten pence per text. We'll need to coordinate with a company that can send premium texts and will hopefully take a percentage of what we're making on the texts rather than wanting a flat fee (reducing startup costs is paramount). Even if we're only getting a small ammount per text sent that's still much better than having to pay to send the users texts.   The idea is to make it small enough that a user would have no problem in paying it (ergo it may have to vary depending on region) but large enough that it can be a small but consistant revenue earner.", 
             "title": "8.06 Paid Text Service"
         }, 
         {
-            "location": "/spec/#807-account-closure-account-restoration", 
+            "location": "/#807-account-closure-account-restoration", 
             "text": "If a user -for whatever reason- wishes to close their account (which is the same as completely hiding it from everyone who isn't an admin), then a one time fee of something like \u00a35.00 (?) should be in place to 'stop frivolous use of the system' and to make money. Similarly if a user wishes to restore an account which was previously closed then the same one time fee would be applied once again.", 
             "title": "8.07 Account Closure / Account Restoration"
         }, 
         {
-            "location": "/spec/#xx-unordered", 
+            "location": "/#xx-unordered", 
             "text": "", 
             "title": "X.X Unordered"
         }, 
         {
-            "location": "/spec/#user", 
-            "text": "name  type  description  visible  can be hidden      id  integer  user id number  no  no    username  string  unique username  yes  no    first name  string  user's first name  yes  yes?    last name  string  user's last name  yes  yes?    ? nickname ?  string  user's nickname  yes  yes?    email address  string  user's email address  yes  yes    phone number  string  user's phone number  yes  yes    date of birth  date?  user's date of birth  yes  yes    is verified  boolean  yes/no verification  yes  no    is premium  boolean  ye/no premium account  yes  no    friends  some form of linked list to make it alphabectical?  user's friends  yes  no    posts  I have no idea...  user's posts  yes  no - have to be hidden individually    total posts  integer  user's total posts  no  no    unique profile views  integer  total number of times profile has been viewed by unique visitors  no  no    creation date  date  date the account was created  yes  no    account age  time?  current date/time subtract creation date/time  no  no    posts per day  decimal  total posts divided by account age  no  no      There should be more in here, Will... ideas?", 
+            "location": "/#user", 
+            "text": "name  type  description  visible  can be hidden      id  integer  user id number  no  no    username  string  unique username  yes  no    first name  string  user's first name  yes  yes?    last name  string  user's last name  yes  yes?    ? nickname ?  string  user's nickname  yes  yes?    email address  string  user's email address  yes  yes    phone number  string  user's phone number  yes  yes    date of birth  date?  user's date of birth  yes  yes    is verified  boolean  yes/no verification  yes  no    is premium  boolean  ye/no premium account  yes  no    friends  some form of linked list to make it alphabectical?  user's friends  yes  no    posts  I have no idea...  user's posts  yes  no - have to be hidden individually    total posts  integer  user's total posts  no  no    unique profile views  integer  total number of times profile has been viewed by unique visitors  no  no    creation date  date  date the account was created  yes  no    account age  time?  current date/time subtract creation date/time  no  no    posts per day  decimal  total posts divided by account age  no  no      There should be more in here", 
             "title": "User"
         }, 
         {
-            "location": "/spec/#post", 
+            "location": "/#post", 
             "text": "name  type  description  visible  visible to poster", 
             "title": "Post"
         }
